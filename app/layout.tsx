@@ -17,10 +17,9 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "BlogSpace - Sarah Johnson",
+  title: "Blog - Yaser Syafa",
   description:
     "Full-stack developer sharing insights about modern web development, productivity, and remote work.",
-  generator: "v0.app",
 };
 
 export default function RootLayout({
