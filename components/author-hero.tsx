@@ -12,19 +12,18 @@ export function AuthorHero() {
             className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-primary/20 shadow-lg"
           />
           <h1 className="text-5xl font-bold text-primary mb-4 text-balance">
-            Sarah Johnson
+            Yaser Syafa
           </h1>
           <p className="text-xl text-muted-foreground mb-6 max-w-2xl mx-auto text-pretty">
-            Full-stack developer, tech writer, and digital nomad sharing
-            insights about modern web development, productivity, and the future
-            of remote work.
+            A Junior Full-Stack Developer and Game Developer, also working as a
+            Tech Writer and remote professional. Sharing insights, lessons, and
+            experiences from my journey in software and game development.
           </p>
           <div className="flex flex-wrap justify-center gap-2 mb-8">
-            <Badge variant="secondary">JavaScript</Badge>
-            <Badge variant="secondary">React</Badge>
-            <Badge variant="secondary">Node.js</Badge>
-            <Badge variant="secondary">TypeScript</Badge>
-            <Badge variant="secondary">Remote Work</Badge>
+            <Badge variant="secondary">Web Developer</Badge>
+            <Badge variant="secondary">Unity Programmer</Badge>
+            <Badge variant="secondary">Writer</Badge>
+            <Badge variant="secondary">Tech Enthusiast</Badge>
           </div>
         </div>
 
