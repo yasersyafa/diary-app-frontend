@@ -1,15 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 
 export function AuthorHero() {
   return (
     <section className="relative bg-gradient-to-br from-primary/5 via-background to-accent/5 py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
-          <img
-            src="/professional-author-headshot.png"
+          <Image
+            width={128}
+            height={128}
+            src="/yaser-profile.png"
             alt="Author"
-            className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-primary/20 shadow-lg"
+            className="size-32 object-cover object-bottom aspect-square rounded-full mx-auto mb-6 border-4 border-primary/20 shadow-lg"
           />
           <h1 className="text-5xl font-bold text-primary mb-4 text-balance">
             Yaser Syafa

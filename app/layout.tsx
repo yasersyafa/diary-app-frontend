@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import { Suspense } from "react";
 import "./globals.css";
+import { Footer } from "@/components/footer";
+import { Navigation } from "@/components/navigation";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -32,7 +34,11 @@ export default function RootLayout({
       <body
         className={`font-sans ${playfair.variable} ${sourceSans.variable} antialiased`}
       >
-        <Suspense fallback={null}>{children}</Suspense>
+        <Suspense fallback={null}>
+          <Navigation />
+          {children}
+          <Footer />
+        </Suspense>
       </body>
     </html>
   );
