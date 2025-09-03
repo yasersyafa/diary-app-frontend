@@ -19,8 +19,8 @@ export async function BlogPosts() {
               Latest Articles
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Insights, tutorials, and thoughts on web development,
-              productivity, and the tech industry.
+              Insights, tutorials, and thoughts on web development, game
+              development, productivity, and the tech industry.
             </p>
           </div>
 
